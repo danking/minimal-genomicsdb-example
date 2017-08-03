@@ -12,7 +12,11 @@ object Hello extends App {
 
   val gdbReader = new GenomicsDBFeatureReader(loader, workspace, arrName, ref, new htsjdk.variant.vcf.VCFCodec())
   val it = gdbReader.iterator()
+  var i = 0
+  println("listing records")
   while (it.hasNext()) {
+    println("record $i")
     println(it.next())
+    i += 1
   }
 }
