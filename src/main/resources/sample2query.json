@@ -1,0 +1,11 @@
+{
+    "workspace" : "src/main/resources/tdbworkspace",
+    "array" : "sample2Array",
+    "query_column_ranges" : [ [ [0, 17421565 ] ] ],
+    "vid_mapping_file": "src/main/resources/sample2vid.json",
+    "callset_mapping_file": "src/main/resources/sample2callsets.json",
+    "query_attributes" : [],
+    "reference_genome" : "src/main/resources/Homo_sapiens_assembly19.fasta",
+    "vcf_header_filename" : "src/main/resources/sample2header.vcf",
+    "produce_GT_field" : true
+}
